@@ -16,6 +16,7 @@ public:
 	int getValue();
 	int getMaxValue();
 	int getMinValue();
+//	int getLastMaxValue();
 	void setValue(int);
 	void setMaxValue(int);
 	void setMinValue(int);
@@ -26,6 +27,8 @@ private:
 	int pin;
 	int maxValue;
 	int minValue;
+//	int lastMaxValue;
+//	int lastMinValue;
 };
 
 

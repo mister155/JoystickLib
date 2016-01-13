@@ -7,6 +7,7 @@
 
 #include "Joystick.h"
 
+//TODO poprzedni krok w max/min wartosci, konwerter, kalibrator
 
 	Joystick::Joystick(int pin_p){
 		pin = pin_p;
@@ -47,6 +48,10 @@
 			minValue = v;
 		}
 	}
+//	int Joystick::getLastMaxValue();
+//		if (v != getMaxValue()){
+//			lastMaxValue = v;
+//			}
 
 Joystick::~Joystick() {
 	// TODO Auto-generated destructor stub
